@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website của Lê Chiến</title>
+    <style>
+        body {margin: 0; background-color: white; color: black; width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center}
+        body.dark-mode {background-color: black; color: white}
+    </style>
+</head>
+<body>
+    <h1>Lê Minh Chiến</h1>
+    <script>
+        // Check if the user has a dark mode preference
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            // Apply the "dark-mode" class to the body element
+            document.body.classList.add('dark-mode');
+        }
+
+    </script>
+</body>
+</html>
